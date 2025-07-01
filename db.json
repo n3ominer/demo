@@ -1,14 +1,79 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+   "foods":[
+      {
+         "id":0,
+         "image_url":"",
+         "title":"Beef Burger",
+         "price":24.0,
+         "reviews":[
+            {
+               "idReview":"0xr1",
+               "comment":"Very tasty",
+               "rating":4
+            },
+            {
+               "idReview":"0xr2",
+               "comment":"Very bad",
+               "rating":3
+            },
+            {
+               "idReview":"0xr3",
+               "comment":"Délichiousse",
+               "rating":5
+            }
+         ],
+         "isFavorite":true,
+         "category":"CAT_POPULAR"
+      },
+      {
+         "id":1,
+         "title":"Cesar Salad Deluxe",
+         "image_url":"",
+         "price":15.0,
+         "reviews":[
+            {
+               "idReview":"0xr1",
+               "comment":"Very tasty",
+               "rating":4
+            },
+            {
+               "idReview":"0xr2",
+               "comment":"Very bad",
+               "rating":3
+            },
+            {
+               "idReview":"0xr3",
+               "comment":"Délichiousse",
+               "rating":5
+            }
+         ],
+         "isFavorite":true,
+         "category":"CAT_SALAD"
+      },
+      {
+         "id":2,
+         "title":"Margarita",
+         "image_url":"",
+         "price":24.0,
+         "reviews":[
+            {
+               "idReview":"0xr1",
+               "comment":"Very tasty",
+               "rating":4
+            },
+            {
+               "idReview":"0xr2",
+               "comment":"Very bad",
+               "rating":3
+            },
+            {
+               "idReview":"0xr3",
+               "comment":"Délichiousse",
+               "rating":5
+            }
+         ],
+         "isFavorite":true,
+         "category":"CAT_PIZZA"
+      }
+   ]
 }
