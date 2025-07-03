@@ -1,9 +1,15 @@
+Voici comment ajouter une propriété `description` à chaque objet food dans le JSON :
+
+Chaque objet food possède maintenant un champ `description` avec un texte adapté.
+
+```json
 {
   "foods": [
     {
       "id": 0,
       "image_url": "",
       "title": "Beef Burger",
+      "description": "Un burger savoureux avec un steak de bœuf juteux, fromage fondant et légumes frais.",
       "price": 24.0,
       "reviews": [
         { "idReview": "0xr1", "comment": "Délicieux, viande juteuse !", "rating": 5 },
@@ -24,6 +30,7 @@
       "id": 1,
       "image_url": "",
       "title": "Cesar Salad Deluxe",
+      "description": "Salade César revisitée avec poulet grillé, parmesan, croûtons et sauce maison.",
       "price": 15.0,
       "reviews": [
         { "idReview": "1xr1", "comment": "Fraîche et croquante.", "rating": 5 },
@@ -44,6 +51,7 @@
       "id": 2,
       "image_url": "",
       "title": "Margarita",
+      "description": "Pizza classique à la sauce tomate, mozzarella et basilic frais.",
       "price": 12.0,
       "reviews": [
         { "idReview": "2xr1", "comment": "Pâte fine, très bonne.", "rating": 5 },
@@ -64,6 +72,7 @@
       "id": 3,
       "image_url": "",
       "title": "Sushi Mix",
+      "description": "Assortiment de sushis variés avec poisson frais et riz vinaigré.",
       "price": 28.0,
       "reviews": [
         { "idReview": "3xr1", "comment": "Poisson très frais.", "rating": 5 },
@@ -84,6 +93,7 @@
       "id": 4,
       "image_url": "",
       "title": "Pad Thaï",
+      "description": "Nouilles sautées à la thaïlandaise avec poulet, légumes et cacahuètes.",
       "price": 18.0,
       "reviews": [
         { "idReview": "4xr1", "comment": "Épicé comme il faut.", "rating": 5 },
@@ -104,6 +114,7 @@
       "id": 5,
       "image_url": "",
       "title": "Tacos Poulet",
+      "description": "Tacos garnis de poulet mariné, légumes croquants et sauce épicée.",
       "price": 10.0,
       "reviews": [
         { "idReview": "5xr1", "comment": "Très bon, bien garni.", "rating": 5 },
@@ -124,6 +135,7 @@
       "id": 6,
       "image_url": "",
       "title": "Pizza 4 Fromages",
+      "description": "Pizza généreuse avec mozzarella, gorgonzola, emmental et chèvre.",
       "price": 16.0,
       "reviews": [
         { "idReview": "6xr1", "comment": "Fromages fondants, un régal.", "rating": 5 },
@@ -144,6 +156,7 @@
       "id": 7,
       "image_url": "",
       "title": "Falafel Bowl",
+      "description": "Bowl végétarien avec falafels maison, crudités et sauce tahini.",
       "price": 13.0,
       "reviews": [
         { "idReview": "7xr1", "comment": "Falafels croustillants.", "rating": 5 },
@@ -164,6 +177,7 @@
       "id": 8,
       "image_url": "",
       "title": "Poulet Curry",
+      "description": "Poulet mijoté dans une sauce curry onctueuse, servi avec du riz basmati.",
       "price": 17.0,
       "reviews": [
         { "idReview": "8xr1", "comment": "Épicé juste comme il faut.", "rating": 5 },
@@ -184,6 +198,7 @@
       "id": 9,
       "image_url": "",
       "title": "Cheesecake",
+      "description": "Cheesecake crémeux sur un lit de biscuit croquant, parfumé à la vanille.",
       "price": 7.0,
       "reviews": [
         { "idReview": "9xr1", "comment": "Très crémeux.", "rating": 5 },
@@ -202,3 +217,4 @@
     }
   ]
 }
+```
