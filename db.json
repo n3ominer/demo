@@ -13,10 +13,7 @@
         { "idReview": "0xr4", "comment": "Service rapide.", "rating": 5 },
         { "idReview": "0xr5", "comment": "Trop de sauce.", "rating": 2 },
         { "idReview": "0xr6", "comment": "Parfait pour un déjeuner.", "rating": 4 },
-        { "idReview": "0xr7", "comment": "Frites excellentes.", "rating": 5 },
-        { "idReview": "0xr8", "comment": "Burger froid à l’arrivée.", "rating": 2 },
-        { "idReview": "0xr9", "comment": "Goût authentique.", "rating": 4 },
-        { "idReview": "0xr10", "comment": "Je recommande !", "rating": 5 }
+        { "idReview": "0xr7", "comment": "Frites excellentes.", "rating": 5 }
       ],
       "isFavorite": true,
       "category": "CAT_POPULAR"
@@ -35,9 +32,6 @@
         { "idReview": "1xr5", "comment": "Trop de salade iceberg.", "rating": 3 },
         { "idReview": "1xr6", "comment": "Parmesan généreux.", "rating": 4 },
         { "idReview": "1xr7", "comment": "Livraison rapide.", "rating": 5 },
-        { "idReview": "1xr8", "comment": "Manque de croûtons.", "rating": 2 },
-        { "idReview": "1xr9", "comment": "Très frais.", "rating": 4 },
-        { "idReview": "1xr10", "comment": "Je recommande.", "rating": 5 }
       ],
       "isFavorite": false,
       "category": "CAT_SALAD"
@@ -56,9 +50,6 @@
         { "idReview": "2xr5", "comment": "Un peu fade.", "rating": 2 },
         { "idReview": "2xr6", "comment": "Bien cuite.", "rating": 4 },
         { "idReview": "2xr7", "comment": "Parfaite pour partager.", "rating": 5 },
-        { "idReview": "2xr8", "comment": "Trop d’huile.", "rating": 3 },
-        { "idReview": "2xr9", "comment": "Goût classique.", "rating": 4 },
-        { "idReview": "2xr10", "comment": "Je recommande.", "rating": 5 }
       ],
       "isFavorite": true,
       "category": "CAT_PIZZA"
@@ -77,9 +68,6 @@
         { "idReview": "3xr5", "comment": "Manque de wasabi.", "rating": 3 },
         { "idReview": "3xr6", "comment": "Livraison ponctuelle.", "rating": 4 },
         { "idReview": "3xr7", "comment": "Très bon rapport qualité/prix.", "rating": 5 },
-        { "idReview": "3xr8", "comment": "Soya oublié.", "rating": 2 },
-        { "idReview": "3xr9", "comment": "Je recommande.", "rating": 5 },
-        { "idReview": "3xr10", "comment": "Parfait pour deux.", "rating": 4 }
       ],
       "isFavorite": false,
       "category": "CAT_SUSHI"
@@ -98,9 +86,6 @@
         { "idReview": "4xr5", "comment": "Livraison rapide.", "rating": 5 },
         { "idReview": "4xr6", "comment": "Manque de cacahuètes.", "rating": 3 },
         { "idReview": "4xr7", "comment": "Très savoureux.", "rating": 4 },
-        { "idReview": "4xr8", "comment": "Un peu gras.", "rating": 2 },
-        { "idReview": "4xr9", "comment": "Je recommande.", "rating": 5 },
-        { "idReview": "4xr10", "comment": "Parfait pour voyager en Thaïlande !", "rating": 5 }
       ],
       "isFavorite": true,
       "category": "CAT_ASIAN"
@@ -181,10 +166,7 @@
         { "idReview": "8xr4", "comment": "Livraison rapide.", "rating": 5 },
         { "idReview": "8xr5", "comment": "Un peu trop de sauce.", "rating": 3 },
         { "idReview": "8xr6", "comment": "Très savoureux.", "rating": 5 },
-        { "idReview": "8xr7", "comment": "Je recommande.", "rating": 5 },
-        { "idReview": "8xr8", "comment": "Portion généreuse.", "rating": 4 },
-        { "idReview": "8xr9", "comment": "Goût authentique.", "rating": 5 },
-        { "idReview": "8xr10", "comment": "Parfait pour un dîner.", "rating": 4 }
+        { "idReview": "8xr7", "comment": "Je recommande.", "rating": 5 }
       ],
       "isFavorite": true,
       "category": "CAT_ASIAN"
