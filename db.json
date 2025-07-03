@@ -13,7 +13,7 @@
         { "idReview": "0xr4", "comment": "Service rapide.", "rating": 5 },
         { "idReview": "0xr5", "comment": "Trop de sauce.", "rating": 2 },
         { "idReview": "0xr6", "comment": "Parfait pour un déjeuner.", "rating": 4 },
-        { "idReview": "0xr7", "comment": "Frites excellentes.", "rating": 5 }
+        { "idReview": "0xr7", "comment": "Frites excellentes.", "rating": 5 },
       ],
       "isFavorite": true,
       "category": "CAT_POPULAR"
@@ -127,7 +127,7 @@
         { "idReview": "6xr7", "comment": "Je recommande.", "rating": 5 },
         { "idReview": "6xr8", "comment": "Trop de mozzarella.", "rating": 3 },
         { "idReview": "6xr9", "comment": "Parfaite pour partager.", "rating": 4 },
-        { "idReview": "6xr10", "comment": "Top !", "rating": 5 }
+        { "idReview": "6xr10", "comment": "Top !", "rating": 5 },
       ],
       "isFavorite": true,
       "category": "CAT_PIZZA"
