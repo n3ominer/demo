@@ -131,66 +131,6 @@
       ],
       "isFavorite": true,
       "category": "CAT_PIZZA"
-    },
-    {
-      "id": 7,
-      "image_url": "",
-      "title": "Falafel Bowl",
-      "description": "Bowl végétarien avec falafels maison, crudités et sauce tahini.",
-      "price": 13.0,
-      "reviews": [
-        { "idReview": "7xr1", "comment": "Falafels croustillants.", "rating": 5 },
-        { "idReview": "7xr2", "comment": "Un peu sec.", "rating": 3 },
-        { "idReview": "7xr3", "comment": "Sauce tahini délicieuse.", "rating": 4 },
-        { "idReview": "7xr4", "comment": "Livraison rapide.", "rating": 5 },
-        { "idReview": "7xr5", "comment": "Manque de légumes.", "rating": 3 },
-        { "idReview": "7xr6", "comment": "Très bon.", "rating": 4 },
-        { "idReview": "7xr7", "comment": "Je recommande.", "rating": 5 },
-        { "idReview": "7xr8", "comment": "Portion généreuse.", "rating": 4 },
-        { "idReview": "7xr9", "comment": "Goût authentique.", "rating": 5 },
-        { "idReview": "7xr10", "comment": "Parfait pour végétariens.", "rating": 5 }
-      ],
-      "isFavorite": false,
-      "category": "CAT_VEGGIE"
-    },
-    {
-      "id": 8,
-      "image_url": "",
-      "title": "Poulet Curry",
-      "description": "Poulet mijoté dans une sauce curry onctueuse, servi avec du riz basmati.",
-      "price": 17.0,
-      "reviews": [
-        { "idReview": "8xr1", "comment": "Épicé juste comme il faut.", "rating": 5 },
-        { "idReview": "8xr2", "comment": "Poulet tendre.", "rating": 4 },
-        { "idReview": "8xr3", "comment": "Riz bien cuit.", "rating": 4 },
-        { "idReview": "8xr4", "comment": "Livraison rapide.", "rating": 5 },
-        { "idReview": "8xr5", "comment": "Un peu trop de sauce.", "rating": 3 },
-        { "idReview": "8xr6", "comment": "Très savoureux.", "rating": 5 },
-        { "idReview": "8xr7", "comment": "Je recommande.", "rating": 5 }
-      ],
-      "isFavorite": true,
-      "category": "CAT_ASIAN"
-    },
-    {
-      "id": 9,
-      "image_url": "",
-      "title": "Cheesecake",
-      "description": "Cheesecake crémeux sur un lit de biscuit croquant, parfumé à la vanille.",
-      "price": 7.0,
-      "reviews": [
-        { "idReview": "9xr1", "comment": "Très crémeux.", "rating": 5 },
-        { "idReview": "9xr2", "comment": "Base croquante.", "rating": 4 },
-        { "idReview": "9xr3", "comment": "Un peu trop sucré.", "rating": 3 },
-        { "idReview": "9xr4", "comment": "Portion généreuse.", "rating": 5 },
-        { "idReview": "9xr5", "comment": "Goût vanille parfait.", "rating": 5 },
-        { "idReview": "9xr6", "comment": "Livraison rapide.", "rating": 5 },
-        { "idReview": "9xr7", "comment": "Je recommande.", "rating": 5 },
-        { "idReview": "9xr8", "comment": "Un peu lourd.", "rating": 3 },
-        { "idReview": "9xr9", "comment": "Parfait en dessert.", "rating": 4 },
-        { "idReview": "9xr10", "comment": "Top !", "rating": 5 }
-      ],
-      "isFavorite": false,
-      "category": "CAT_DESSERT"
     }
   ]
 }
