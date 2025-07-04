@@ -183,210 +183,26 @@
       ],
       "isFavorite": false,
       "category": "CAT_SUSHI"
-    },
-    {
-      "id": 4,
-      "image_url": "",
-      "title": "Pad Thaï",
-      "description": "Nouilles sautées à la thaïlandaise avec poulet, légumes et cacahuètes.",
-      "price": 18,
-      "reviews": [
-        {
-          "idReview": "4xr1",
-          "comment": "Épicé comme il faut.",
-          "rating": 5
-        },
-        {
-          "idReview": "4xr2",
-          "comment": "Portion généreuse.",
-          "rating": 4
-        },
-        {
-          "idReview": "4xr3",
-          "comment": "Un peu trop sucré.",
-          "rating": 3
-        },
-        {
-          "idReview": "4xr4",
-          "comment": "Poulet tendre.",
-          "rating": 5
-        },
-        {
-          "idReview": "4xr5",
-          "comment": "Livraison rapide.",
-          "rating": 5
-        },
-        {
-          "idReview": "4xr6",
-          "comment": "Manque de cacahuètes.",
-          "rating": 3
-        },
-        {
-          "idReview": "4xr7",
-          "comment": "Très savoureux.",
-          "rating": 4
-        }
-      ],
-      "isFavorite": true,
-      "category": "CAT_ASIAN"
-    },
-    {
-      "id": 5,
-      "image_url": "",
-      "title": "Tacos Poulet",
-      "description": "Tacos garnis de poulet mariné, légumes croquants et sauce épicée.",
-      "price": 10,
-      "reviews": [
-        {
-          "idReview": "5xr1",
-          "comment": "Très bon, bien garni.",
-          "rating": 5
-        },
-        {
-          "idReview": "5xr2",
-          "comment": "Un peu sec.",
-          "rating": 3
-        },
-        {
-          "idReview": "5xr3",
-          "comment": "Sauce excellente.",
-          "rating": 4
-        },
-        {
-          "idReview": "5xr4",
-          "comment": "Livraison rapide.",
-          "rating": 5
-        },
-        {
-          "idReview": "5xr5",
-          "comment": "Tortilla un peu dure.",
-          "rating": 2
-        },
-        {
-          "idReview": "5xr6",
-          "comment": "Parfait pour un snack.",
-          "rating": 4
-        },
-        {
-          "idReview": "5xr7",
-          "comment": "Goût authentique.",
-          "rating": 5
-        },
-        {
-          "idReview": "5xr8",
-          "comment": "Manque de légumes.",
-          "rating": 3
-        },
-        {
-          "idReview": "5xr9",
-          "comment": "Je recommande.",
-          "rating": 5
-        },
-        {
-          "idReview": "5xr10",
-          "comment": "Très copieux.",
-          "rating": 4
-        }
-      ],
-      "isFavorite": false,
-      "category": "CAT_TEXMEX"
-    },
-    {
-      "id": 6,
-      "image_url": "",
-      "title": "Pizza 4 Fromages",
-      "description": "Pizza généreuse avec mozzarella, gorgonzola, emmental et chèvre.",
-      "price": 16,
-      "reviews": [
-        {
-          "idReview": "6xr1",
-          "comment": "Fromages fondants, un régal.",
-          "rating": 5
-        },
-        {
-          "idReview": "6xr2",
-          "comment": "Un peu trop salé.",
-          "rating": 3
-        },
-        {
-          "idReview": "6xr3",
-          "comment": "Pâte croustillante.",
-          "rating": 4
-        },
-        {
-          "idReview": "6xr4",
-          "comment": "Livraison rapide.",
-          "rating": 5
-        },
-        {
-          "idReview": "6xr5",
-          "comment": "Manque de gorgonzola.",
-          "rating": 3
-        },
-        {
-          "idReview": "6xr6",
-          "comment": "Très bon goût.",
-          "rating": 4
-        },
-        {
-          "idReview": "6xr7",
-          "comment": "Je recommande.",
-          "rating": 5
-        },
-        {
-          "idReview": "6xr8",
-          "comment": "Trop de mozzarella.",
-          "rating": 3
-        },
-        {
-          "idReview": "6xr9",
-          "comment": "Parfaite pour partager.",
-          "rating": 4
-        },
-        {
-          "idReview": "6xr10",
-          "comment": "Top !",
-          "rating": 5
-        }
-      ],
-      "isFavorite": true,
-      "category": "CAT_PIZZA"
-    },
-    {
-      "id": 7,
-      "image_url": "",
-      "title": "Falafel Bowl",
-      "description": "Boulettes de pois chiches croustillantes, légumes frais et sauce tahini.",
-      "price": 13,
-      "reviews": [
-        {
-          "idReview": "7xr1",
-          "comment": "Falafels bien croustillants.",
-          "rating": 5
-        },
-        {
-          "idReview": "7xr2",
-          "comment": "Un peu sec sans sauce.",
-          "rating": 3
-        },
-        {
-          "idReview": "7xr3",
-          "comment": "Portion généreuse.",
-          "rating": 4
-        },
-        {
-          "idReview": "7xr4",
-          "comment": "Très frais.",
-          "rating": 5
-        },
-        {
-          "idReview": "7xr5",
-          "comment": "Manque d'épices.",
-          "rating": 3
-        }
-      ],
-      "isFavorite": false,
-      "category": "CAT_VEGGIE"
     }
-  ]
+  ],
+  "locations": [
+		{
+			"id" : 0,
+			"name": "ESGI",
+			"long": 2.389580,
+			"lat": 48.849199
+		},
+		{
+			"id" : 1,
+			"name": "Burger KING",
+			"long": 2.374453,
+			"lat": 48.836414
+		},
+		{
+			"id" : 2,
+			"name": "Notre de Beriz",
+			"long": 2.349974,
+			"lat": 48.852650
+		},
+	]
 }
