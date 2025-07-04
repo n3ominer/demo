@@ -1,22 +1,437 @@
 {
-  "foods": [
+  "food": [
     {
-      "id": 0,
-      "image_url": "",
+      "id": 0, 
       "title": "Beef Burger",
-      "description": "Un burger savoureux avec un steak de bœuf juteux, fromage fondant et légumes frais.",
-      "price": 24.0,
+      "price": 1.2,
+      "category": "CAT_POPULAR",
+      "isFavorite" : true,
       "reviews": [
-        { "idReview": "0xr1", "comment": "Délicieux, viande juteuse !", "rating": 5 },
-        { "idReview": "0xr2", "comment": "Un peu trop salé à mon goût.", "rating": 3 },
-        { "idReview": "0xr3", "comment": "Pain moelleux, top !", "rating": 4 },
-        { "idReview": "0xr4", "comment": "Service rapide.", "rating": 5 },
-        { "idReview": "0xr5", "comment": "Trop de sauce.", "rating": 2 },
-        { "idReview": "0xr6", "comment": "Parfait pour un déjeuner.", "rating": 4 },
-        { "idReview": "0xr7", "comment": "Frites excellentes.", "rating": 5 },
-      ],
-      "isFavorite": true,
-      "category": "CAT_POPULAR"
+        {
+          "idReviews": "0xr1",
+          "comment": "Very tasty",
+          "rating": 4
+        },
+        {
+          "idReviews": "0xr2",
+          "comment": "Very tasty",
+          "rating": 4
+        },
+        {
+          "idReviews": "0xr3",
+          "comment": "Very tasty",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 2, 
+      "title": "Vegie Burger",
+      "price": 1.2,
+      "category": "CAT_VEGIE",
+      "isFavorite" : true,
+      "reviews": [
+        {
+          "idReviews": "2xr1",
+          "comment": "Excellent alternative végétarienne, très savoureux !",
+          "rating": 5
+        },
+        {
+          "idReviews": "2xr2",
+          "comment": "Bon goût mais un peu sec",
+          "rating": 3
+        },
+        {
+          "idReviews": "2xr3",
+          "comment": "Parfait pour les végétariens, bien assaisonné",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 3, 
+      "title": "Potetos Burger",
+      "price": 1.2,
+      "category": "CAT_VEGIE",
+      "reviews": [
+        {
+          "idReviews": "3xr1",
+          "comment": "Original et délicieux ! Les pommes de terre sont parfaites",
+          "rating": 4
+        },
+        {
+          "idReviews": "3xr2",
+          "comment": "Concept intéressant mais manque de sauce",
+          "rating": 3
+        },
+        {
+          "idReviews": "3xr3",
+          "comment": "Très bon rapport qualité-prix",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Classic Burger",
+      "price": 2.5,
+      "category": "CAT_CLASSIC_BURGER",
+      "reviews": [
+        {
+          "idReviews": "4xr1",
+          "comment": "Un classique qui ne déçoit jamais !",
+          "rating": 5
+        },
+        {
+          "idReviews": "4xr2",
+          "comment": "Simple et efficace, comme j'aime",
+          "rating": 4
+        },
+        {
+          "idReviews": "4xr3",
+          "comment": "Bon burger traditionnel",
+          "rating": 4
+        },
+        {
+          "idReviews": "4xr4",
+          "comment": "Viande bien cuite, bun moelleux",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Cheeseburger",
+      "price": 2.8,
+      "category": "CAT_CHEESEBURGER",
+      "reviews": [
+        {
+          "idReviews": "5xr1",
+          "comment": "Le fromage fond parfaitement, délicieux !",
+          "rating": 5
+        },
+        {
+          "idReviews": "5xr2",
+          "comment": "Fromage de qualité, je recommande",
+          "rating": 4
+        },
+        {
+          "idReviews": "5xr3",
+          "comment": "Un peu trop de fromage à mon goût",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Bacon Burger",
+      "price": 3.2,
+      "category": "CAT_BACON_BURGER",
+      "reviews": [
+        {
+          "idReviews": "6xr1",
+          "comment": "Le bacon est parfaitement croustillant !",
+          "rating": 5
+        },
+        {
+          "idReviews": "6xr2",
+          "comment": "Excellent, mais un peu gras",
+          "rating": 4
+        },
+        {
+          "idReviews": "6xr3",
+          "comment": "Rapport qualité-prix correct",
+          "rating": 3
+        },
+        {
+          "idReviews": "6xr4",
+          "comment": "Le meilleur bacon burger de la ville !",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Veggie Burger",
+      "price": 2.6,
+      "category": "CAT_VEGGIE_BURGER",
+      "reviews": [
+        {
+          "idReviews": "7xr1",
+          "comment": "Très bon mélange de légumes",
+          "rating": 4
+        },
+        {
+          "idReviews": "7xr2",
+          "comment": "Healthy et savoureux",
+          "rating": 4
+        },
+        {
+          "idReviews": "7xr3",
+          "comment": "Manque un peu de consistance",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Spicy Burger",
+      "price": 3.0,
+      "category": "CAT_SPICY_BURGER",
+      "reviews": [
+        {
+          "idReviews": "8xr1",
+          "comment": "Parfait niveau épices, j'adore !",
+          "rating": 5
+        },
+        {
+          "idReviews": "8xr2",
+          "comment": "Trop épicé pour moi",
+          "rating": 2
+        },
+        {
+          "idReviews": "8xr3",
+          "comment": "Bon équilibre entre épices et goût",
+          "rating": 4
+        },
+        {
+          "idReviews": "8xr4",
+          "comment": "Pour les amateurs de sensations fortes !",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Double Burger",
+      "price": 3.5,
+      "category": "CAT_DOUBLE_BURGER",
+      "reviews": [
+        {
+          "idReviews": "9xr1",
+          "comment": "Énorme ! Parfait quand on a très faim",
+          "rating": 5
+        },
+        {
+          "idReviews": "9xr2",
+          "comment": "Excellent rapport quantité/prix",
+          "rating": 4
+        },
+        {
+          "idReviews": "9xr3",
+          "comment": "Difficile à finir mais délicieux",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "BBQ Burger",
+      "price": 3.3,
+      "category": "CAT_BBQ_BURGER",
+      "reviews": [
+        {
+          "idReviews": "10xr1",
+          "comment": "Sauce BBQ maison exceptionnelle !",
+          "rating": 5
+        },
+        {
+          "idReviews": "10xr2",
+          "comment": "Goût fumé authentique",
+          "rating": 4
+        },
+        {
+          "idReviews": "10xr3",
+          "comment": "Un peu trop de sauce",
+          "rating": 3
+        },
+        {
+          "idReviews": "10xr4",
+          "comment": "Le meilleur BBQ burger !",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Mushroom Burger",
+      "price": 3.0,
+      "category": "CAT_MUSHROOM_BURGER",
+      "reviews": [
+        {
+          "idReviews": "11xr1",
+          "comment": "Champignons frais et savoureux",
+          "rating": 4
+        },
+        {
+          "idReviews": "11xr2",
+          "comment": "Texture intéressante, j'aime beaucoup",
+          "rating": 4
+        },
+        {
+          "idReviews": "11xr3",
+          "comment": "Pas fan des champignons mais c'était bon",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Fish Burger",
+      "price": 2.9,
+      "category": "CAT_FISH_BURGER",
+      "reviews": [
+        {
+          "idReviews": "12xr1",
+          "comment": "Poisson frais et bien cuisiné",
+          "rating": 4
+        },
+        {
+          "idReviews": "12xr2",
+          "comment": "Alternative parfaite à la viande",
+          "rating": 4
+        },
+        {
+          "idReviews": "12xr3",
+          "comment": "Sauce tartare délicieuse",
+          "rating": 5
+        },
+        {
+          "idReviews": "12xr4",
+          "comment": "Un peu sec",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Turkey Burger",
+      "price": 3.1,
+      "category": "CAT_TURKEY_BURGER",
+      "reviews": [
+        {
+          "idReviews": "13xr1",
+          "comment": "Plus léger que le bœuf, parfait !",
+          "rating": 4
+        },
+        {
+          "idReviews": "13xr2",
+          "comment": "Dinde de qualité, très bon",
+          "rating": 4
+        },
+        {
+          "idReviews": "13xr3",
+          "comment": "Healthy et savoureux",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Shrimp Taco",
+      "price": 2.9,
+      "category": "CAT_SEAFOOD",
+      "reviews": [
+        {
+          "idReviews": "14xr1",
+          "comment": "Crevettes fraîches et épicées, top !",
+          "rating": 5
+        },
+        {
+          "idReviews": "14xr2",
+          "comment": "Excellent changement du burger classique",
+          "rating": 4
+        },
+        {
+          "idReviews": "14xr3",
+          "comment": "Portion généreuse",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Falafel Wrap",
+      "price": 2.5,
+      "category": "CAT_VEGIE",
+      "reviews": [
+        {
+          "idReviews": "15xr1",
+          "comment": "Falafel fait maison, délicieux !",
+          "rating": 5
+        },
+        {
+          "idReviews": "15xr2",
+          "comment": "Bien assaisonné, très bon",
+          "rating": 4
+        },
+        {
+          "idReviews": "15xr3",
+          "comment": "Sauce tahini parfaite",
+          "rating": 4
+        },
+        {
+          "idReviews": "15xr4",
+          "comment": "Un peu sec sans sauce",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Vegan Salad Bowl",
+      "price": 2.0,
+      "category": "CAT_VEGAN",
+      "reviews": [
+        {
+          "idReviews": "16xr1",
+          "comment": "Frais et coloré, parfait !",
+          "rating": 4
+        },
+        {
+          "idReviews": "16xr2",
+          "comment": "Excellent rapport qualité-prix",
+          "rating": 4
+        },
+        {
+          "idReviews": "16xr3",
+          "comment": "Très healthy, je recommande",
+          "rating": 5
+        },
+        {
+          "idReviews": "16xr4",
+          "comment": "Manque un peu de protéines",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "BBQ Pulled Pork Sandwich",
+      "price": 3.3,
+      "category": "CAT_MEAT",
+      "reviews": [
+        {
+          "idReviews": "17xr1",
+          "comment": "Porc effiloché parfaitement cuit !",
+          "rating": 5
+        },
+        {
+          "idReviews": "17xr2",
+          "comment": "Sauce BBQ maison excellente",
+          "rating": 5
+        },
+        {
+          "idReviews": "17xr3",
+          "comment": "Très copieux et savoureux",
+          "rating": 4
+        },
+        {
+          "idReviews": "17xr4",
+          "comment": "Un peu gras mais délicieux",
+          "rating": 4
+        }
+      ]
     }
-  ],
+  ]
 }
